@@ -10120,12 +10120,12 @@ body.loading-on {
 .btn.btn-primary:not(:disabled):not(.disabled).active,
 .btn.btn-primary:not(:disabled):not(.disabled):active {
     background-color: #ef4b6c;
-    border-color: #ef4b6c;
+    border-color: #25D366;
     box-shadow: 10px 16px 40px 0 rgba(255, 84, 117, .46)
 }
 
 .btn.btn-white {
-    color: #ef4b6c;
+    color: #25D366;
     background-color: #fff;
     box-shadow: 0 12px 14px 0 rgba(63, 70, 88, .15)
 }
@@ -11776,12 +11776,12 @@ footer {
     z-index: 9;
     bottom: 15px;
     left: calc(100% - 75px);
-    width: 60px;
-    height: 60px;
+    width: 64px;
+    height: 64px;
     padding: 22px 17px;
     transition: all .5s ease-in-out;
     visibility: visible;
-    background-color: #ef4b6c;
+    background-color:	#25D366;
     border-radius: 50%;
     transform: translateZ(0)
 }
@@ -11789,7 +11789,7 @@ footer {
 .hero-button-float.floating .btn.btn-primary i,
 .hero-button-float.floating .btn.btn-white i {
     visibility: visible;
-    font-size: 16px;
+    font-size: 40px;
     color: #fff;
     transition: all .5s ease-in-out
 }
@@ -11798,9 +11798,25 @@ footer {
 
     .hero-button-float.floating .btn.btn-primary i,
     .hero-button-float.floating .btn.btn-white i {
-        font-size: 20px
+        font-size: 53px; 
+       position:relative;
+       right:18px;
+       bottom: 8px;
     }
 }
+
+
+@media (max-width:500px) {
+
+    .hero-button-float.floating .btn.btn-primary i,
+    .hero-button-float.floating .btn.btn-white i {
+        font-size: 53px; 
+       position:relative;
+       right:18px;
+       bottom: 8px;
+    }
+}
+
 
 .hero-button-float.floating .btn.btn-primary span,
 .hero-button-float.floating .btn.btn-white span {
